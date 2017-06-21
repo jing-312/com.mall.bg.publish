@@ -16,11 +16,11 @@ public class CommodityHandler {
 
 	@Autowired
 	private CommodityService commodityService;
-	@RequestMapping("/manager/goto_commodity_publish")
+	@RequestMapping("/goto_product_publish")
 	public String goto_commodity_publish(){
 		
 		
-		return "manager/commodity_publish";
+		return "product_publish";
 	}
 	
 }
